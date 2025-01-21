@@ -1,0 +1,49 @@
+* {
+  padding: none;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background: #842029;
+}
+
+footer {
+  background: #fd7e14;
+}
+
+table {
+  background: #000;
+}
+
+/* index styles */
+.table {
+  margin-top: 25px;
+}
+
+.cargoContainer {
+  gap: 15.3px;
+}
+
+form {
+  gap: 22px;
+}
+
+.main {
+  background: linear-gradient(to bottom, #842029, #842029, #fd7e14);
+  width: 61%;
+}
+
+.card {
+  width: 100%;
+  max-width: 250px;
+}
+
+select {
+  background: none;
+}
+
+.cargo {
+  font-weight: 500;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- фрейм вызова модального окна -->
+    <section class="card">
+        <div class="card-body">
+          <h5 class="card-title">Добавить груз</h5>
+          <p class="card-text">
+            Откройте форму заполнения данных вашего груза.
+          </p>
+          <a
+            href="#"
+            class="btn btn-info text-dark"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            >Открыть форму</a
+          >
+        </div>
+      </section>
+      <!-- модалка -->
+    <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+           <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Заполните поля товара
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <section class="modal-body">
+              <input type="text" placeholder="Название груза" />
+              <div class="d-flex"><p>Номер груза:<div class="text-info">&nbsp;&nbsp;GOR02</div></p></div>
+              <select id="" class="form-select custom-width">
+                <option value="">Пункт отпарвки</option>
+                <option value="Глухово">Глухово</option>
+              </select>
+              <select id="" class="form-select custom-width">
+                <option value="">Пункт выдачи</option>
+                <option value="Питер">Питер</option>
+              </select>
+              <select id="statusFilter" class="form-select custom-width">
+                <option value="Ожидает отправки">Ожидает отправки</option>
+                <option value="В пути">В пути</option>
+                <option value="Доставлен">Доставлен</option>
+              </select>
+            </section>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger">
+                Отправить товар
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="./Form.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "product_data": [
+    {
+      "id": "1",
+      "cargo_number": "CARGO002",
+      "product_name": "Монитор HUAWEI",
+      "status": "Ожидает отправки",
+      "departure_point": "Бухово",
+      "destination_point": "Лугово",
+      "departure_date": "01-01-2026"
+    },
+    {
+      "id": "2",
+      "cargo_number": "CARGO003",
+      "product_name": "Холодильник",
+      "status": "Доставлен",
+      "departure_point": "Лугово",
+      "destination_point": "Мухово",
+      "departure_date": "11-02-2022"
+    },
+    {
+      "id": "3",
+      "cargo_number": "CARGO004",
+      "product_name": "Пиджак",
+      "status": "Доставлен",
+      "departure_point": "Мухово",
+      "destination_point": "Глухово",
+      "departure_date": "23-05-2023"
+    },
+    {
+      "id": "4",
+      "cargo_number": "CARGO005",
+      "product_name": "GeForce 4090",
+      "status": "В пути",
+      "departure_point": "Глухово",
+      "destination_point": "Москва",
+      "departure_date": "10-04-2025"
+    },
+    {
+      "id": "c044",
+      "departure_date": "2025-01-03",
+      "product_name": "пиво",
+      "departure_point": "Мухово",
+      "destination_point": "Москва",
+      "status": "В пути",
+      "cargo_number": "CARGO757"
+    }
+  ]
+}
